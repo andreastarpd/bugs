@@ -1,0 +1,143 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    overflow: auto;
+    z-index: 0;
+    height: fit-content;
+}
+html{
+    overflow: auto;
+}
+#giflogo{
+    position: relative;
+    left: 50%;
+    translate: -50%;
+}
+
+#logo{
+    width: 10%;
+    max-width: 100px;
+    position: sticky;
+    top: 2vh;
+    height: auto;
+    z-index: 100;
+}
+h1{
+    font-size: 1.8em;
+    display: inline;
+    width: fit-content;
+    position: relative;
+    top: 20vh;
+}
+.releases{
+    position: relative;
+    left: 45vw;
+    color: #a82c2c;
+    width: fit-content;
+}
+.covers{
+    top: 25vh;
+    width: fit-content;
+    position: relative;
+    left: 50%;
+    translate: -50%;
+}
+.covers img{
+    height: 25vw;
+    max-height: 280px;
+}
+.covers a{
+    margin-inline: 4vw;
+}
+h2{
+    font-size: 1.2em;
+    letter-spacing: 4px;
+    font-weight: 200;
+    font-style: italic;
+    width: fit-content;
+    position: relative;
+    top: 28vh;
+    left: 50vw;
+}
+.more a{
+    text-decoration: underline;
+    color: rgb(23, 139, 74);
+    
+}
+.more a:hover{
+    color: rgb(140, 169, 237);
+    font-weight: bold;
+}
+.events{
+    position: relative;
+    top: 15vh;
+    left: 40vw;
+    color: #6b8383;
+    width: fit-content;
+}
+.merch{
+    position: relative;
+    top: 30vh;
+    left: 55vw;
+    color: #a8822c;
+    width: fit-content;
+}
+.contact{
+    width: fit-content;
+    position: relative;
+    top: 50vh;
+    left: 50vw;
+    translate: -50%;
+    color: #bb6d6d;
+}
+.contactinfo{
+    width: fit-content;
+    position: relative;
+    top: 70vh;
+    left: 50vw;
+    translate: -50%;
+    padding-bottom: 50px;
+}
+.billedcontainer{
+    width: 90%;
+    position: relative;
+    top: 80vh;
+    left: 50%;
+    translate: -50%;
+}
+.billeder1{
+    width: 80%;
+    position: absolute;
+    left: 50%;
+    translate: -50%;
+    
+}
+.billeder1 img{
+    float: left;
+    margin: 4vw;
+}
+.billeder2{
+    position: absolute;
+    top: 900px;
+    left: 25vw;
+    margin: 4vw;
+    width: 60%;
+}
+.billeder2 img{
+    float: left;
+    margin: 4vw;
+}
+.billeder3{
+    width: fit-content;
+    position: absolute;
+    top: 3000px;
+}
+.billeder3 img{
+    float: left;
+    margin: 4vw;
+}
+.billeder4{
+    width: fit-content;
+    position: absolute;
+    top: 4200px;
+
+}
