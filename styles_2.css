@@ -1,18 +1,19 @@
-body{
-    font-family: 'Times New Roman', Times, serif;
-    overflow: auto;
-    z-index: 0;
+html{
+    overflow: visible;
+    z-index: 1;
     height: fit-content;
 }
-html{
-    overflow: auto;
+body{
+    font-family: 'Times New Roman', Times, serif;
+    overflow: visible;
+    position: absolute;
 }
+
 #giflogo{
     position: relative;
     left: 50%;
     translate: -50%;
 }
-
 #logo{
     width: 10%;
     max-width: 100px;
@@ -20,22 +21,24 @@ html{
     top: 2vh;
     height: auto;
     z-index: 100;
+    overflow: visible;
 }
 h1{
     font-size: 1.8em;
     display: inline;
     width: fit-content;
     position: relative;
-    top: 20vh;
+    
 }
 .releases{
     position: relative;
     left: 45vw;
+    top: 20dvh;
     color: #a82c2c;
     width: fit-content;
 }
 .covers{
-    top: 25vh;
+    top: 25dvh;
     width: fit-content;
     position: relative;
     left: 50%;
@@ -55,7 +58,7 @@ h2{
     font-style: italic;
     width: fit-content;
     position: relative;
-    top: 28vh;
+    top: 28dvh;
     left: 50vw;
 }
 .releases a{
@@ -69,7 +72,7 @@ h2{
 }
 .events a{
     position: relative;
-    top: 15vh;
+    top: 35dvh;
     left: 40vw;
     color: #6b8383;
     width: fit-content;
@@ -81,7 +84,7 @@ h2{
 }
 .merch a{
     position: relative;
-    top: 30vh;
+    top: 50dvh;
     left: 55vw;
     color: #a8822c;
     width: fit-content;
@@ -94,7 +97,7 @@ h2{
 .contact{
     width: fit-content;
     position: relative;
-    top: 50vh;
+    top: 70dvh;
     left: 50vw;
     translate: -50%;
     color: #bb6d6d;
@@ -102,21 +105,27 @@ h2{
 .contactinfo{
     width: fit-content;
     position: relative;
-    top: 70vh;
+    top: 70dvh;
     left: 50vw;
     translate: -50%;
     padding-bottom: 50px;
 }
 .billedcontainer{
+    
     width: 90%;
+    height: 98%;
     position: relative;
-    top: 80vh;
+    top: 30dvh;
     left: 50%;
     translate: -50%;
+    overflow: visible;
+}
+.billedcontainer img{
+    clear: both;
 }
 .billeder1{
     width: 80%;
-    position: absolute;
+    position: relative;
     left: 50%;
     translate: -50%;
     
@@ -126,8 +135,8 @@ h2{
     margin: 4vw;
 }
 .billeder2{
-    position: absolute;
-    top: 900px;
+    position: relative;
+    top: 30dvh;
     left: 25vw;
     margin: 4vw;
     width: 60%;
@@ -138,8 +147,9 @@ h2{
 }
 .billeder3{
     width: fit-content;
-    position: absolute;
-    top: 2500px;
+    position: relative;
+    top: 50dvh;
+    right: 10%;
 }
 .billeder3 img{
     float: left;
@@ -147,19 +157,53 @@ h2{
 }
 .billeder4{
     width: fit-content;
-    position: absolute;
-    top: 4000px;
+    position: relative;
+    top: 70dvh;
 }
 .billeder4 img{
     float: right;
-    padding: 4%;
+    padding: 10%;
 }
 .billeder5{
     width: fit-content;
-    position: absolute;
-    top: 5000px;
-    left: 30%;
+    position: relative;
+    top: 180dvh;
+    left: 20%;
 }
 .billeder5 img{
-    padding: 2%;
+    float: left;
+    margin: 2%;
 }
+/* releases-subpage */
+.releases_2{
+    color: #436f3f;
+    width: fit-content;
+    position: relative;
+    top: 10dvh;
+    left: 35vw;
+}
+.releases_navne{
+    width: fit-content;
+    position: relative;
+    top: 20dvh;
+    font-size: 1.5em;
+}
+.releases_navne img{
+    position: relative;
+    max-width: 280px;
+    float: right;
+    margin: 15dvh;
+}
+li{
+    margin-bottom: 60dvh;
+    margin-top: 30dvh;
+    color: #a82c2c;
+}
+ul{
+    list-style-type: none;
+    position: relative;
+    left: 15vw;
+}
+/* events-subpage */
+
+/* merch-subpage */
