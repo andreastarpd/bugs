@@ -1,13 +1,16 @@
+html, body{
+    margin: 0;
+    padding: 0;
+}
 html{
     overflow: visible;
     height: fit-content;
 }
 body{
     font-family: 'Times New Roman', Times, serif;
-    overflow: visible;
     position: absolute;
     opacity: 90%;
-    width: 100%;
+    width: 100vw;
 }
 
 
@@ -48,7 +51,7 @@ h3{
     width: 5%;
     max-width: 9%;
     position: sticky;
-    top: 2vh;
+    top: 4px;
     z-index: 100;
     overflow: visible;
 }
@@ -59,6 +62,7 @@ h3{
     translate: -50%;
     line-height: 2em;
     text-align: center;
+    
 }
 .about h1{
     position: relative;
@@ -69,6 +73,8 @@ h3{
 .about h3{
     position: relative;  
     top: 3em;
+    background-color: rgb(255, 247, 240);
+    
 }
 .releases{
     position: relative;
@@ -79,19 +85,16 @@ h3{
 }
 .covers{
     top: 20dvh;
-    width: fit-content;
     position: relative;
-    left: 50%;
-    translate: -50%;
+    width: auto;
 }
 .covers img{
-    height: auto;
-    max-height: 250px;    
-}
-.covers a{
     margin-inline: 6vw;
+    min-width: 100px;
+    width: 23%;
+    translate: 50%;
+    
 }
-
 .releases a{
     text-decoration: none;
     color: #a82c2c;
@@ -146,7 +149,7 @@ h3{
 /* billed-væg */
 
 .billedcontainer{
-    width: 100%;
+    width: 100vw;
     position: relative;
     top: 80dvh;
 }
