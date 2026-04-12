@@ -13,7 +13,6 @@ body{
     width: 100vw;
 }
 
-
 /* main */
 
 h1{
@@ -47,7 +46,7 @@ h3{
     translate: -50%;
 }
 #logo{
-    min-width: 70px;
+    min-width: 50px;
     width: 5%;
     max-width: 9%;
     position: sticky;
@@ -57,7 +56,7 @@ h3{
 }
 .about{
     position: relative;
-    width: 50dvw;
+    width: 75dvw;
     left: 50%;
     translate: -50%;
     line-height: 2em;
@@ -72,7 +71,7 @@ h3{
 }
 .about h3{
     position: relative;  
-    top: 3em;
+    top: 1em;
     background-color: rgb(255, 247, 240);
     
 }
@@ -152,6 +151,10 @@ h3{
     width: 100vw;
     position: relative;
     top: 80dvh;
+    overflow: hidden;
+}
+.billedcontainer img{
+    max-width: 40%;
 }
 
 
