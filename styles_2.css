@@ -108,8 +108,8 @@ h3{
 }
 .events a{
     position: relative;
-    top: 50dvh;
-    left: 40vw;
+    top: 20dvh;
+    left: 65vw;
     color: #6b8383;
     width: fit-content;
     text-decoration: none;
@@ -117,6 +117,51 @@ h3{
 .events a:hover{
     color: rgb(140, 169, 237);
     font-weight: bold;
+}
+.artister {
+    position: relative;
+    top: 60dvh;
+    left: 50vw;
+    translate: -50%;
+    width: 75dvw;
+    text-align: center;
+    color: #4a5d3f;
+}
+.artists_grid {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    justify-content: center;
+    gap: 50px;
+    margin-top: 0em;
+}
+
+.artist_item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.artist_item h2 {
+    color: #192318;
+    margin-bottom: 8px;
+}
+.artist_item img {
+    max-width: 200px;
+    width: 100%;
+    height: auto;
+}
+.artist_item a {
+    text-decoration: none;
+    color: inherit;
+}
+.artister {
+    position: relative;
+    top: 55dvh;
+    left: 50vw;
+    translate: -50%;
+    width: 75dvw;
+    text-align: center;
+    color: #4a5d3f;
 }
 .merch a{
     position: relative;
@@ -130,21 +175,169 @@ h3{
     color: rgb(140, 169, 237);
     font-weight: bold;
 }
+
 .contact{
     width: fit-content;
     position: relative;
-    top: 78dvh;
+    top: 75dvh;
     left: 50vw;
     translate: -50%;
     color: #bb6d6d;
 }
+
 .contactinfo{
     width: fit-content;
     position: relative;
-    top: 80dvh;
+    top: 77dvh;
     left: 50vw;
     translate: -50%;
     padding-bottom: 20dvh;
+}
+
+.artist_header {
+    text-align: center;
+    margin-top: 3dvh;
+    color: #1c0b38;
+}
+
+
+.artist_bio_container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 80vw;
+    margin-left: 10vw;
+    margin-top: 5dvh;
+    gap: 4vw;
+}
+
+.artist_om {
+    flex: 1;
+}
+
+.artist_om h1 {
+    color: #4a5d3f;
+    margin-top: 0;
+    margin-bottom: 0.8em;
+    display: block;
+}
+
+.artist_om h3 {
+    background-color: rgb(255, 247, 240);
+    text-align: left;
+    line-height: 2em;
+    padding: 15px;
+    margin: 0;
+}
+
+.artist_main_pic {
+    width: 35vw;
+    max-width: 400px;
+    margin-top: 2.8em;
+}
+
+.artist_main_pic img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.artist_section {
+    width: 80vw;
+    margin-left: 10vw;
+    margin-top: 8dvh;
+}
+
+.udgivelser_sec h1 {
+    color: #9c4242;
+    margin-left: 5vw;
+    margin-bottom: 25px;
+    display: block;
+}
+
+.links_sec h1 {
+    color: #6b8383;
+    margin-left: 12vw;
+    margin-bottom: 25px;
+    display: block;
+}
+
+.artist_udgivelser_grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 320px));
+    gap: 40px;
+    margin-top: 20px;
+}
+
+.release_item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.release_item h2 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+.release_item img {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+}
+
+.artist_links_grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 35px;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 15dvh;
+}
+
+.artist_links_grid img {
+    width: 87.5px;
+    height: 87.5px;
+    object-fit: contain;
+    opacity: 0.85;
+    transition: opacity 0.2s ease;
+}
+
+.artist_links_grid img:hover {
+    opacity: 1;
+}
+
+/* -------- SLUT PÅ ARTIST-subpage section (Bertil ----------  /*
+
+
+/* ---- hurtig ting til katalog-setup på home-siden */
+
+.katalog_sektion {
+    position: relative;
+    top: 10dvh;
+    left: 37vw;
+    translate: -50%;
+    width: 50dvw;
+    text-align: center;
+}
+
+.katalog_sektion .releases {
+    position: relative;
+    top: 0;
+    left: -15;
+    margin-bottom: 2em;
+}
+
+.katalog_grid {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    position: relative;
+    top: 33dvh;
+    width: 80vw;
+    left: 50vw;
+    translate: -50%;
 }
 
 
@@ -153,7 +346,7 @@ h3{
 .billedcontainer{
     width: 100vw;
     position: relative;
-    top: 80dvh;
+    top: 77dvh;
     overflow: hidden;
 }
 .billedcontainer img{
