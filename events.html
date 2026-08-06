@@ -7,36 +7,180 @@
     <link rel="stylesheet" href="styles_2.css">
 </head>
 <body>
-    <a id="top"><i>bugsbugsbugsbugsbugs<span style="color: #436f3f;">bugs</span>bugsbugsbugsbugsbugs</i></a>
-        <hr>
-        <a href="#top"><img src="billeder/logo.png" id="logo"></a>
+    <a id="top"><i>bugsbugsbugsbugsbugs<span style="color: #436f3f;">bugs</span><span style="color: cornflowerblue;">bugs</span>bugsbugsbugsbugs</i></a>
+    <hr>
+    <a href="index.html"><img src="billeder/logo.png" id="logo" alt="logo"></a>
 
-        <div class="home_knap"><a href="index.html"><h1>hjem</h1></a></div>
-    <h1>kommende events</h1>
-    <br>
-    <h2>"ladybugs"</h2>
-    <br>
-    <p></p>
-    <h1>tidligere events:</h1>
-    <br>
-    <h2>"glowworm"</h2>
-    <br>
-    <p>ada cakmakli</p>
-    <br>
-    <p>BJØRG</p>
-    <br>
-    <p>UFINT</p>
-    <br>
-    <p>Andreas Tarp Dahl</p>
-    <br>
-    <p>16/05 @ A-HUSET, institut for X</p>
-    <br>
-    <h2>liebsick release</h2>
-    <br>
-    <h2>"bedbugs"</h2>
+    <div class="home_knap"><a href="index.html"><h1>hjem</h1></a></div>
 
+    <div class="events_page_container">
+        <!-- kommende -->
+        <div class="events_section_header kommende_header">
+            <h1>kommende</h1>
+        </div>
+        <div id="kommende-container" class="events_list"></div>
 
-    
-    <p><a href="https://www.facebook.com/events/3386822234833489" target="_blank">facebook event</a></p>
+        <!-- tidligere -->
+        <div class="events_section_header tidligere_header">
+            <h1>tidligere</h1>
+        </div>
+        <div id="tidligere-container" class="events_list"></div>
+    </div>
+
+    <!-- !!!!!!!!!! HER TILFØJES EVENTS  !!!!!!!!!!!!!!!!-->
+    <div id="events-data-pool" style="display: none;">
+
+<!-- BEDBUGS -->
+        <article class="event_card" data-date="2025-10-10">
+            <div class="event_info">
+                <h2>BedBugs</h2>
+                <div class="event_meta">
+                    <span class="event_date">10.10.2025</span>
+                    <span class="event_location">– UngK, Aarhus</span>
+                </div>
+                <div class="event_description">
+                    Bugs (pladeselskab, kultur- og koncertforening) præsenterer BedBugs - en cozy aften med mad, musik og tekstoplæsning i UngK.
+                    Eventet afholdes i anledning af udgivelsen af Måger's debutalbum <i>Måger</i>, som udgives samme dag. Eventet lancerer samtidig det nyopstartede pladeselskab Bugs, som skal danne rammen for udgivelser, events og workshops med udgangspunkt i Aarhus.<br><br>
+                    --------------------------------------------------<br>
+                    Heeals (kammerjazz)<br>
+                    --------------------------------------------------<br>
+                    Tekstoplæsning v. Freja Stenberg<br>
+                    --------------------------------------------------<br>
+                    Måger (singer/songwriter) - releasekoncert!<br>
+                    --------------------------------------------------<br><br>
+
+                    Med tak for støtten til PUKK - Puljen til Ung Kunst og Kultur.
+                </div>
+                <a href="https://www.facebook.com/events/1398126868002058/" target="_blank" class="fb_link">Facebook event →</a>
+            </div>
+            <div class="event_poster">
+                <img src="billeder/plakater/BedBugsPlakat.png" alt="BedBugs poster">
+            </div>
+        </article>
+
+        <!-- LIEBSICK RECEPTION -->
+        <article class="event_card" data-date="2025-11-28">
+            <div class="event_info">
+                <h2>Liebsick reception</h2>
+                <div class="event_meta">
+                    <span class="event_date">28.11.2025</span>
+                    <span class="event_location">– Folkestedet, Aarhus</span>
+                </div>
+                <div class="event_description">
+                    Bugs og Folkestedets Venner inviterer til bogreception og releasekoncert for <i>Liebsick</i> - en dobbeltudgivelse af Bertil Gregor Norup bestående af en novellesamling og et album. Der vil være fællesspisning samt et par musikalske indslag, før <i>Liebsick</i> fremføres i en performance, som kombinerer tekstoplæsning og koncert. Efter koncerten vil der være mulighed for at købe bog og CD.<br><br>
+                    --------------------------------------------------<br>
+                    Anton Severin (solo, elektronisk)<br>
+                    --------------------------------------------------<br>
+                    ada cakmakli (solo, singer/songwriter)<br>
+                    --------------------------------------------------<br>
+                    Liebsick (pop/rock + spoken words)<br>
+                    -------------------------------------------------- <br><br>
+                    Eventet er støttet af Dansk Musiker Forbund og PUKK - Puljen til Ung Kunst og Kultur.
+                </div>
+                <a href="https://www.facebook.com/events/1178126500885023/" target="_blank" class="fb_link">Facebook event →</a>
+            </div>
+            <div class="event_poster">
+                <img src="billeder/plakater/liebsick_midlertidig.jpg" alt="Liebsick reception poster">
+            </div>
+        </article>
+
+        <!-- GLOWWORM -->
+        <article class="event_card" data-date="2026-05-16">
+            <div class="event_info">
+                <h2>GlowWorm</h2>
+                <div class="event_meta">
+                    <span class="event_date">16.05.2026</span>
+                    <span class="event_location">– A-huset, Institut for X, Aarhus</span>
+                </div>
+                <div class="event_description">
+                    Bugs præsenterer GlowWorm: Oplev ny, aarhusiansk kunst og musik i A-huset, Institut for X, og fejr udgivelsen af <i>jeg bærer dig om min hals</i>, et videoværk af Andreas Tarp Dahl, samt ada cakmaklis debutalbum <i>beastarium</i>. Aftenen består af et videoværk og tre koncerter.<br><br>
+                    --------------------------------------------------<br>
+                    Andreas Tarp Dahl – <i>jeg bærer dig om min hals</i><br>
+                    --------------------------------------------------<br>
+                    UFINT (indie pop/rock)<br>
+                    --------------------------------------------------<br>
+                    BJØRG (Dream pop/rock)<br>
+                    --------------------------------------------------<br>
+                    ada cakmakli (indie folk / alt. rock) – <i>Beastarium</i> album release!<br>
+                    --------------------------------------------------
+                    <br><br>
+                    Med tak for støtten til PUKK - Puljen til Ung Kunst og Kultur.
+                </div>
+                <a href="https://www.facebook.com/events/3386822234833489/" target="_blank" class="fb_link">Facebook event →</a>
+            </div>
+            <div class="event_poster">
+                <img src="billeder/plakater/glowworm.jpg" alt="GlowWorm poster">
+            </div>
+        </article>
+
+        <!-- LADYBUGS FESTIVAL -->
+        <article class="event_card" data-date="2026-08-22">
+            <div class="event_info">
+                <h2>LadyBugs Festival</h2>
+                <div class="event_meta">
+                    <span class="event_date">22.08.2026</span>
+                    <span class="event_location">– Gården Mejlgade 53 / PHONO, Aarhus</span>
+                </div>
+                <div class="event_description">
+                    Bugs, PHONO og Café Mellemfolk præsenterer LadyBugs Festival – en endagsfestival med kunst, litteratur og musik af kvinder og kønsminoriteter. Det vil sige, at der hverken er ciskønnede mænd på scenerne, eller som afsender på udstillingerne, men alle publikummer er velkomne uanset køn! Festivalen foregår i gården Mejlgade 53, med en indendørs scene på PHONO og en udendørs scene samt udstilling af kunst i gårdrummet, og så vil Café Mellemfolk have en bod med salg af mad og drikke.<br><br>
+                    --------------------------------------------------<br>
+                    MUSIK:<br>
+                    ada cakmakli, Anastasia, Cucuun, Elena Medina, Mellem ord, Moongirl, OLGIZ, shie said, fatherjenny (DJ)<br>
+                    --------------------------------------------------<br>
+                    LITTERATUR & PERFORMANCE:<br>
+                    Yrsa Birch Hastrup, Bella Terragni, Elisabeth rejser sig fra graven og taler ud over vandet<br>
+                    --------------------------------------------------<br>
+                    KUNST:<br>
+                    Alvi Strøm, Frida Nora, Ida Marie Agerboe, Sille Milo.<br>
+                    -------------------------------------------------- <br> <br>
+                    Med tak for støtten til PUKK - Puljen til Ung Kunst og Kultur.
+                </div>
+                <a href="https://fb.me/e/4ArYKHC8J" target="_blank" class="fb_link">Facebook event →</a>
+            </div>
+            <div class="event_poster">
+                <img src="billeder/plakater/Ladybugs.jpg" alt="LadyBugs Festival poster">
+            </div>
+        </article>
+ 
+    </div>
+
+    <!-- SORTETINGS-SHIT -->
+    <script>
+        document.addEventListener("DOMContentLoaded", () => {
+            const today = new Date();
+            today.setHours(0, 0, 0, 0);
+
+            const pool = document.getElementById('events-data-pool');
+            const kommendeContainer = document.getElementById('kommende-container');
+            const tidligereContainer = document.getElementById('tidligere-container');
+
+            const eventCards = Array.from(pool.querySelectorAll('.event_card'));
+
+            // Sort events descending (most recent date first)
+            eventCards.sort((a, b) => new Date(b.dataset.date) - new Date(a.dataset.date));
+
+            const upcoming = [];
+            const past = [];
+
+            eventCards.forEach(card => {
+                const eventDate = new Date(card.dataset.date);
+                if (eventDate >= today) {
+                    upcoming.push(card);
+                } else {
+                    past.push(card);
+                }
+            });
+
+            upcoming.forEach(card => kommendeContainer.appendChild(card));
+            past.forEach(card => tidligereContainer.appendChild(card));
+
+            const allVisibleCards = document.querySelectorAll('.events_page_container .event_card');
+            allVisibleCards.forEach((card, index) => {
+                if (index % 2 === 1) {
+                    card.classList.add('reverse_layout');
+                }
+            });
+        });
+    </script>
 </body>
 </html>

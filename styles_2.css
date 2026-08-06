@@ -54,7 +54,7 @@ h3{
 }
 .about{
     position: relative;
-    width: 75dvw;
+    width: 68dvw;
     left: 50%;
     translate: -50%;
     line-height: 2em;
@@ -109,7 +109,7 @@ h3{
 .events a{
     position: relative;
     top: 20dvh;
-    left: 65vw;
+    left: 75vw;
     color: #6b8383;
     width: fit-content;
     text-decoration: none;
@@ -156,7 +156,7 @@ h3{
 }
 .artister {
     position: relative;
-    top: 55dvh;
+    top: 35dvh;
     left: 50vw;
     translate: -50%;
     width: 75dvw;
@@ -165,7 +165,7 @@ h3{
 }
 .merch a{
     position: relative;
-    top: 60dvh;
+    top: 40dvh;
     left: 55vw;
     color: #a8822c;
     width: fit-content;
@@ -179,7 +179,7 @@ h3{
 .contact{
     width: fit-content;
     position: relative;
-    top: 75dvh;
+    top: 50dvh;
     left: 50vw;
     translate: -50%;
     color: #bb6d6d;
@@ -188,7 +188,7 @@ h3{
 .contactinfo{
     width: fit-content;
     position: relative;
-    top: 77dvh;
+    top: 50dvh;
     left: 50vw;
     translate: -50%;
     padding-bottom: 20dvh;
@@ -311,6 +311,159 @@ h3{
 /* -------- SLUT PÅ ARTIST-subpage section (Bertil ----------  /*
 
 
+/* EVENTS (BERTIL) */
+
+.events_sektion {
+    position: relative;
+    top: 20dvh;
+    left: 50vw;
+    translate: -50%;
+    width: 80dvw;
+    text-align: center;
+}
+
+.events_sektion .events a {
+    position: static; 
+    top: auto;
+    left: auto;
+    color: #6b8383;
+    text-decoration: none;
+    display: inline-block;
+    margin-bottom: 2em;
+    margin-left: 32vw;
+}
+
+.events_sektion .events a:hover {
+    color: rgb(140, 169, 237);
+    font-weight: bold;
+}
+
+.events_grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-items: center;
+    gap: 2px;
+}
+
+.event_item img {
+    width: 100%;
+    max-width: 200px;
+    height: auto;
+    display: block;
+}
+
+.events_page_container {
+    width: 80vw;
+    margin-left: 10vw;
+    margin-top: 4dvh;
+    margin-bottom: 15dvh;
+}
+
+.events_section_header {
+    margin-top: 6dvh;
+    margin-bottom: 3dvh;
+}
+
+.kommende_header h1 {
+    color: #4a5d3f;
+    margin-left: 3vw;
+}
+
+.tidligere_header h1 {
+    color: #9c4242;
+    margin-left: 55vw;
+}
+
+.events_list {
+    display: flex;
+    flex-direction: column;
+    gap: 6dvh;
+}
+
+.event_card {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 4vw;
+    width: 100%;
+}
+
+.event_card.reverse_layout {
+    flex-direction: row-reverse;
+}
+
+.event_info {
+    flex: 1;
+}
+
+.event_info h2 {
+    font-size: 1.4em;
+    font-weight: bold;
+    color: #1c0b38;
+    margin: 0 0 4px 0;
+}
+
+.event_meta {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    font-size: 0.95em;
+    font-style: italic;
+    color: #6b8383;
+    margin-bottom: 15px;
+}
+
+.event_date {
+    display: inline;
+}
+
+.event_location {
+    display: inline;
+    font-weight: 500;
+}
+
+.event_description {
+    background-color: rgb(255, 247, 240);
+    text-align: left;
+    line-height: 1.8em;
+    padding: 18px;
+    margin-bottom: 12px;
+}
+
+.fb_link {
+    display: inline-block;
+    color: #436f3f;
+    font-weight: bold;
+    text-decoration: none;
+    transition: color 0.2s ease;
+}
+
+.fb_link:hover {
+    color: rgb(140, 169, 237);
+}
+
+.event_poster {
+    width: 32vw;
+    max-width: 350px;
+    flex-shrink: 0;
+    margin-top: 4em;
+}
+
+.event_poster img {
+    width: 100%;
+    height: auto;
+    display: block;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+}
+
+
+
+
+
+
+/* SLUT PÅ EVENTS /BERTIL */
+
+
 /* ---- hurtig ting til katalog-setup på home-siden */
 
 .katalog_sektion {
@@ -339,6 +492,107 @@ h3{
     left: 50vw;
     translate: -50%;
 }
+
+
+/* KATALOG- SUB PAGE START (BERTIL) */ 
+
+
+.catalogue_page_container {
+    width: 80vw;
+    margin-left: 10vw;
+    margin-top: 4dvh;
+    margin-bottom: 15dvh;
+}
+
+.catalogue_header {
+    margin-top: 6dvh;
+    margin-bottom: 5dvh;
+}
+
+.catalogue_header h1 {
+    color: #4a5d3f;
+    margin-left: 3vw;
+}
+
+.catalogue_list {
+    display: flex;
+    flex-direction: column;
+    gap: 6dvh;
+}
+
+.catalogue_card {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 4vw;
+    width: 100%;
+}
+
+.catalogue_card.reverse_layout {
+    flex-direction: row-reverse;
+}
+
+.catalogue_info {
+    flex: 1;
+}
+
+.catalogue_info h2 {
+    font-size: 1.4em;
+    font-weight: bold;
+    color: #1c0b38;
+    margin: 0 0 4px 0;
+}
+
+.artist_link {
+    color: #1c0b38;
+    text-decoration: underline;
+    transition: color 0.2s ease;
+}
+
+.artist_link:hover {
+    color: rgb(140, 169, 237);
+}
+
+.catalogue_meta {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    font-size: 0.95em;
+    font-style: italic;
+    color: #6b8383;
+    margin-bottom: 15px;
+}
+
+.release_date, .release_type {
+    display: inline;
+}
+
+.catalogue_description {
+    background-color: rgb(255, 247, 240);
+    text-align: left;
+    line-height: 1.8em;
+    padding: 18px;
+    margin-bottom: 12px;
+}
+
+.catalogue_cover {
+    width: 32vw;
+    max-width: 350px;
+    flex-shrink: 0;
+    margin-top: 4em;
+}
+
+.catalogue_cover img {
+    width: 100%;
+    height: auto;
+    display: block;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+}
+
+/*  KATALOG SUBPAGE SLUT (BERTIL*/
+
+
+
 
 
 /* billed-væg */

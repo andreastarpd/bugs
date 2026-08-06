@@ -8,26 +8,131 @@
 </head>
 <body>
     <a id="top"><i>bugsbugsbugsbugsbugsbugsbugsbugs<span style="color:cornflowerblue">bugs</span>bugsbugs</i></a>
-        <hr>
-        <a href="#top"><img src="billeder/logo.png" id="logo"></a>
-        <br>
-        <div class="home_knap"><a href="index.html"><h1>hjem</h1></a></div>
-        
-    <div class="releases_2"><h1>katalog</h1></div>
-    <div class="releases_navne">
-    
-        <li>andreas tarp --- jeg bærer dig om min hals<a href="https://www.youtube.com/watch?v=psji_AjKBBA" target="_blank"><img src="billeder/_VHS-C_01_H_264 720p - BS_1.00_09_03_01.Still010.bmp" alt="jeg_bærer_dig_om_min_hals"></a></li>
-        <hr>
-        <li>ada cakmakli --- beastiarium <a href="https://open.spotify.com/track/6IMY0NLvdPO1BejWBYN4x4?si=40b4f7dfd2634d05" target="_blank"><img src="billeder/cover_album_sml.JPG" alt="spider_cover"></a></li>
-        <hr>
+    <hr>
+    <a href="index.html"><img src="billeder/logo.png" id="logo" alt="logo"></a>
     <br>
-        <li>Liebsick --- Liebsick<a href="https://open.spotify.com/album/7sAETVzXZopTlNowE3856H?si=EMpVKSFmRHmNaB15eUzipA" target="_blank"><img src="billeder/Albumcover_lille.jpg" alt="liebsick_cover"></a></li>
-        <hr>
-        <br>
+    <div class="home_knap"><a href="index.html"><h1>hjem</h1></a></div>
         
+    <div class="catalogue_page_container">
+        <div class="catalogue_header">
+            <h1>katalog</h1>
+        </div>
+        <div id="catalogue-container" class="catalogue_list"></div>
     </div>
-    <br>
-    
-    <br>
+
+    <!-- TILFØJ ALBUMS HERUNDER -->
+    <div id="catalogue-data-pool" style="display: none;">
+
+        <!-- Beastarium -->
+        <article class="catalogue_card" data-date="2026-05-16" data-title="Beastarium">
+            <div class="catalogue_info">
+                <h2><a href="ada.html" class="artist_link">ada cakmakli</a> --- <i>beastarium</i></h2>
+                <div class="catalogue_meta">
+                    <span class="release_date">16.05.2026</span>
+                    <span class="release_type">– album</span>
+                </div>
+                <div class="catalogue_description">
+                    <i>beastiarium</i> er ada cakmakli’s andet soloalbum efter en lang hiatus. Det er et storslået projekt lavet sammen med venner og dygtige musikere. Albummet prøver at fange alle livets mest finurlige og varme oplevelser, på det soniske såvel som og tekstlige plan.<br><br>
+Lydmæssigt finder  <i>beastiarium</i> sig meget i indie-folk/melancholic acoustic verdenen, med ada’s indviklede guitarspil og intuitive vokaler. Der gemmer sig også mange flere instrumenter på de forskellige tracks.<br><br>
+Ada fortæller historier både om det introspektive - men også om de særlige og magiske oplevelser, som nogen som helst kan relatere til. beastiarium er tungt inspireret af dyr og natur, samt kærlighed, depression og eufori. <br><br>
+Musik og produktion af ada cakmakli. Mix og master af Rasmus Rosenkvist Thomsen.
+
+                </div>
+            </div>
+            <div class="catalogue_cover">
+                <img src="billeder/coverart/beastiarium.jpg" alt="Beastarium cover">
+            </div>
+        </article>
+
+        <!-- Jeg bærer dig om min hals -->
+        <article class="catalogue_card" data-date="2026-05-16" data-title="Jeg bærer dig om min hals">
+            <div class="catalogue_info">
+                <h2><a href="andreas.html" class="artist_link">andreas tarp dahl</a> --- <i>Jeg bærer dig om min hals</i></h2>
+                <div class="catalogue_meta">
+                    <span class="release_date">16.05.2026</span>
+                    <span class="release_type">– videoværk</span>
+                </div>
+                <div class="catalogue_description">
+                    XX bug bug XX bugs bugs buggedi bug
+                </div>
+            </div>
+            <div class="catalogue_cover">
+                <img src="billeder/coverart/jeg bærer dig om min hals.bmp" alt="Jeg bærer dig om min hals cover">
+            </div>
+        </article>
+
+        <!-- OBJECT 3: Liebsick -->
+        <article class="catalogue_card" data-date="2025-11-28" data-title="Liebsick">
+            <div class="catalogue_info">
+                <h2><a href="liebsick.html" class="artist_link">Liebsick</a> --- <i>Liebsick</i></h2>
+                <div class="catalogue_meta">
+                    <span class="release_date">28.11.2025</span>
+                    <span class="release_type">– album + novellesamling</span>
+                </div>
+                <div class="catalogue_description">
+                 <i>Liebsick</i> er en dobbeltudgivelse af Bertil Gregor Norup, bestående af en bog og et musikalbum, hvor novellerne skal forstås i konteksten af sangene - og vice versa. Musikken er skabt sammen med venner og bekendte fra det aarhusianske musikmiljø, og spænder bredt over genrer som folk, hiphop, pop og elektronisk rock <br><br>
+
+                    Musik af Bertil Gregor Norup og 31 medskabere.<br>
+
+                    Produktion, mix og master af Rasmus Rosenkvist Thomsen og Bertil Gregor Norup.<br> Coverart af Frida Nora Hornbæk Eriksen. <br>
+                    Bogudgivelse på Forlaget Ådalen.<br>
+                    Med støtte fra Dansk Artistforbund og Aarhus Kommunes Musikpulje.
+
+                </div>
+            </div>
+            <div class="catalogue_cover">
+                <img src="billeder/coverart/liebsick.jpg" alt="Liebsick cover">
+            </div>
+        </article>
+
+        <!-- OBJECT 4: Måger -->
+        <article class="catalogue_card" data-date="2025-10-10" data-title="Måger">
+            <div class="catalogue_info">
+                <h2><a href="maager.html" class="artist_link">Måger</a> --- <i>Måger</i></h2>
+                <div class="catalogue_meta">
+                    <span class="release_date">10.10.2025</span>
+                    <span class="release_type">– album</span>
+                </div>
+                <div class="catalogue_description">
+                    Krøllede sætninger. Sammenfiltrede arpeggioer. 2 guitarer, som ikke kan skilles. 2 tekstuniverser, som udelukkende giver mening i symbiose. Duoen Måger kombinerer på deres debutudgivelse enkel musikalsk kongruens med et aparte tekstunivers, som holder sig strengt til tematikken; moderne teknologi. Musikken resonerer i grænselandet mellem subtil indiefolk og corny singer-songwriter stil. <br><br>
+                    Albummet var udgangspunktet for dannelsen af duoen, og tilblivelsen heraf er ligeledes et øjebliksbillede på de to musikeres rejse ind i projektet og opblomstringen af deres musikalske samunivers.<br><br>
+                    Musik, produktion og mix af Mikko Jensen og Vigga Bang-Larsen. Master af Bertil Gregor Norup.
+
+                </div>
+            </div>
+            <div class="catalogue_cover">
+                <img src="billeder/coverart/maager.jpg" alt="Måger cover">
+            </div>
+        </article>
+
+    </div>
+
+    <!-- SORTERINGS-SHIT -->
+    <script>
+        document.addEventListener("DOMContentLoaded", () => {
+            const pool = document.getElementById('catalogue-data-pool');
+            const container = document.getElementById('catalogue-container');
+            const cards = Array.from(pool.querySelectorAll('.catalogue_card'));
+
+            // Sort: Newest release date first. If dates are equal, sort alphabetically by title.
+            cards.sort((a, b) => {
+                const dateA = new Date(a.dataset.date);
+                const dateB = new Date(b.dataset.date);
+
+                if (dateB - dateA !== 0) {
+                    return dateB - dateA;
+                }
+                return a.dataset.title.localeCompare(b.dataset.title, 'da');
+            });
+
+            // Append cards to main container & apply alternating row layout
+            cards.forEach((card, index) => {
+                if (index % 2 === 1) {
+                    card.classList.add('reverse_layout');
+                }
+                container.appendChild(card);
+            });
+        });
+    </script>
 </body>
 </html>
